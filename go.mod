@@ -3,7 +3,7 @@ module github.com/jaegertracing/jaeger
 go 1.16
 
 require (
-	github.com/Shopify/sarama v1.29.1
+	github.com/Shopify/sarama v1.31.0
 	github.com/apache/thrift v0.14.2
 	github.com/bsm/sarama-cluster v2.1.13+incompatible
 	github.com/crossdock/crossdock-go v0.0.0-20160816171116-049aabb0122b
@@ -52,8 +52,9 @@ require (
 	go.uber.org/atomic v1.9.0
 	go.uber.org/automaxprocs v1.4.0
 	go.uber.org/zap v1.18.1
+	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
-	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
+	golang.org/x/net v0.0.0-20220105145211-5b0dc2dfae98
 	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1
 	google.golang.org/grpc v1.39.0
 	google.golang.org/protobuf v1.27.1
